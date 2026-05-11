@@ -61,7 +61,7 @@ const Form = () => {
   });
 
   return (
-    <div className="container mx-auto space-y-6 justify-center gap-10 pt-20 px-10 xl:px-20 w-full">
+    <div className="container mx-auto flex flex-col items-center space-y-6 justify-center gap-10 pt-20 px-10 xl:px-20 w-full">
       {/* Leads form */}
       <form
         onSubmit={(event) => {
