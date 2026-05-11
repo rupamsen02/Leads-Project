@@ -1,0 +1,9 @@
+The table Leads
+
+CREATE TABLE Leads (
+    id uuid primary key,
+    Name text,
+    Phone varchar(15),
+    Source text,
+    Status text
+)
